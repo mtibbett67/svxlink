@@ -2,6 +2,12 @@
 
 These are the scripts I've created to assist with instaling and configuring svxlink.
 
+Port and protocols needed for an EchoLink node:
+
+- EchoLink requires that inbound UDP ports 5198 and 5199 to your node are accessible. 
+
+- Also, TCP port 22 for Secure Shell to the node will allow you to log into the device remotely to manage it.
+
 TODO:
 
 - Hardware list
@@ -12,4 +18,4 @@ TODO:
 
 - Look into All Star link version 3
 
-- Site refernces to sites I used
+- Site refernces to sites I use
