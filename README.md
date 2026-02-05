@@ -11,3 +11,5 @@ TODO:
 - List important configuration files
 
 - Look into All Star link version 3
+
+- Site refernces to sites I used
