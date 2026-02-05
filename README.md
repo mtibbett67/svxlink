@@ -1,3 +1,4 @@
 # svxlink
-# svxlink
-# This is for installing svxlink
+
+This is for installing svxlink
+
