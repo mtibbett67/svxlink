@@ -8,7 +8,7 @@ set -e  # Stop script on any error
 #echo
 
 # You can update these values here, or use 'read' to prompt at runtime
-callsign=KJ5KUF
+callsign=MyCallSign
 password=MyPassword
 sysop_name=Elmer
 location="Albuquerque, NM"
