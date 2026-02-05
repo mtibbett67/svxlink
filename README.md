@@ -4,7 +4,7 @@ These are the scripts I've created to assist with instaling and configuring svxl
 
 Port and protocols needed for an EchoLink node:
 
-- EchoLink requires that inbound UDP ports 5198 and 5199 to your node are accessible. 
+- EchoLink requires that inbound UDP ports 5198 and 5199 to your node are passed through. 
 
 - Also, TCP port 22 for Secure Shell to the node will allow you to log into the device remotely to manage it.
 
