@@ -3,16 +3,19 @@ set -e  # Stop script on any error
 
 # --- Variables ---
 # Prompt for credentials instead of hardcoding
-#read -p "Enter Callsign: " callsign
-#read -sp "Enter EchoLink Password: " password
-#echo
+read -p "Enter Callsign: " callsign
+read -sp "Enter EchoLink Password: " password
+read -sp "Enter Sysop Name: " sysop_name
+read -sp "Enter Location: " location
+read -sp "Enter Description: " description
+echo
 
 # You can update these values here, or use 'read' to prompt at runtime
-callsign=MyCallSign
-password=MyPassword
-sysop_name=Elmer
-location="Albuquerque, NM"
-description="Testing EchoLink Node"
+#callsign=MyCallSign
+#password=MyPassword
+#sysop_name=Elmer
+#location="Albuquerque, NM"
+#description="Testing EchoLink Node"
 
 # --- 1. Event and Sound System Directories ---
 # Replicating the logic to create local-events.d and local-sounds.d

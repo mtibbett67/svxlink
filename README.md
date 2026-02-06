@@ -3,19 +3,23 @@
 These are the scripts I've created to assist with instaling and configuring svxlink.
 
 ---
-
 ### Hardware list:
 - Raspberry Pi. Version 3 or newer [here](https://www.raspberrypi.com/)
 - USB Sound Card [here](https://www.amazon.com/gp/product/B00IRVQ0F8)
 - Baofeng Audio Patch Cable [here](https://www.amazon.com/gp/product/B01LMIBAZW)
 - Y-cord to connect a single 3.5mm to USB Sound Card Mic and Audio out [here](https://www.amazon.com/dp/B073ZDDTH2)
 
-### Installation:
+### Installation Instructions:
 Install OS, Raspberry Pi OS Lite is recommended if you feel you need to conserve resources.
 
 Install Git via apt install git or app store
 
+Git Clone this repository
 
+Run the install.sh script. This will install any depencies, make, and install the SvxLink pakage.
+
+You will be prompted to run the configure.sh script next.  It will ask you for your Call Sign
+ 
 Port and protocols needed for an EchoLink node:
 
 - EchoLink requires that inbound UDP ports 5198 and 5199 to your node are passed through. 
