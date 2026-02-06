@@ -4,7 +4,9 @@ These are the scripts I've created to assist with instaling and configuring svxl
 
 Hardware list:
 - Raspberry Pi. Version 3 or newer
-- USB Sound Card
+- USB Sound Card (https://www.amazon.com/gp/product/B00IRVQ0F8)
+- Baofeng Audio Patch Cable (https://www.amazon.com/gp/product/B01LMIBAZW)
+- Y-cord to connect a single 3.5mm to USB Sound Card Mic and Audio out (https://www.amazon.com/dp/B073ZDDTH2)
 
 
 Install OS, Raspberry Pi OS Lite is recommended if you feel you need to conserve resources.
