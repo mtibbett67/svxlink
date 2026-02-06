@@ -28,20 +28,15 @@ Port and protocols needed for an EchoLink node:
 - Original Project Site
 -- https://www.svxlink.org/
 
-- Installation on a Raspberry Pi and link thru a Baofeng
--- https://www.vnutz.com/articles/echolink_on_a_raspberry_pi_with_a_baofeng_uv5r
+- Installation on a Raspberry Pi and link thru a Baofeng [here](https://www.vnutz.com/articles/echolink_on_a_raspberry_pi_with_a_baofeng_uv5rP)
 
-- Echolink node on Raspberry Pi using SVXLink
--- http://np2wj.com/echolink-node-on-raspberry-pi-using-svxlink-part-1/
+- Echolink node on Raspberry Pi using SVXLink [here](http://np2wj.com/echolink-node-on-raspberry-pi-using-svxlink-part-1/)
 
-- Installing SVXLink On Raspberry Pi OS Bullseye
--- https://ccc.myrac.ca/VE6PLC_installing_svxlink.pdf
+- Installing SVXLink On Raspberry Pi OS Bullseye [here](https://ccc.myrac.ca/VE6PLC_installing_svxlink.pdf)
 
-- Wiring diagram to DIY a Baofeng to sound card harness
--- https://schematron.org/image/baofeng-headset-wiring-diagram-3.png
+- Wiring diagram to DIY a Baofeng to sound card harness [here](https://schematron.org/image/baofeng-headset-wiring-diagram-3.png)
 
-- EchoLink site
--- https://echolink.org/
+- EchoLink site [here](https://echolink.org/)
 
 ---
 TODO:
