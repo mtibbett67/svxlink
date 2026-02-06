@@ -9,7 +9,8 @@ Port and protocols needed for an EchoLink node:
 
 - Also, TCP port 22 for Secure Shell to the node will allow you to log into the device remotely to manage it.
 
-# Sites I used to get my information from
+---
+## Sites I used to get my information from
 
 - Original Project Site
 -- https://www.svxlink.org/
