@@ -2,6 +2,8 @@
 
 These are the scripts I've created to assist with instaling and configuring svxlink.
 
+---
+
 ### Hardware list:
 - Raspberry Pi. Version 3 or newer (https://www.raspberrypi.com/)
 - USB Sound Card (https://www.amazon.com/gp/product/B00IRVQ0F8)
