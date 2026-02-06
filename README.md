@@ -21,11 +21,16 @@ Run the install.sh script. This will install any depencies, make, and install th
 You will be prompted to run the configure.sh script next.  It will ask you for your Call Sign,
 EchoLink password, Sysop name, Location, and Description 
  
+
 Port and protocols needed for an EchoLink node:
+In order to allow SvxLink to connect to the EchoLink servers you will need to open some ports
+and let them thru to your SvxLink node. Also assign a static IP address or DHCP reservation for
+your node.
 
-- EchoLink requires that inbound UDP ports 5198 and 5199 to your node are passed through. 
+- EchoLink requires inbound UDP ports 5198 and 5199 forwarded to your node are passed through. 
 
-- Also, TCP port 22 for Secure Shell to the node will allow you to log into the device remotely to manage it.
+- Also, if you need to remotely manage your node you will want to forward TCP port 22 for
+Secure Shell to the node.
 
 ---
 ## Sites I used to get my information from for this build
