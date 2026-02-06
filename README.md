@@ -18,7 +18,8 @@ Git Clone this repository
 
 Run the install.sh script. This will install any depencies, make, and install the SvxLink pakage.
 
-You will be prompted to run the configure.sh script next.  It will ask you for your Call Sign
+You will be prompted to run the configure.sh script next.  It will ask you for your Call Sign,
+EchoLink password, Sysop name, Location, and Description 
  
 Port and protocols needed for an EchoLink node:
 
