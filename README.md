@@ -25,8 +25,7 @@ Port and protocols needed for an EchoLink node:
 ---
 ## Sites I used to get my information from for this build
 
-- Original Project Site
--- https://www.svxlink.org/
+- Original Project Site [here](https://www.svxlink.org/)
 
 - Installation on a Raspberry Pi and link thru a Baofeng [here](https://www.vnutz.com/articles/echolink_on_a_raspberry_pi_with_a_baofeng_uv5rP)
 
