@@ -1,7 +1,6 @@
-# svxlink
+# SvxLink
 
 These are the scripts I've created to assist with instaling and configuring svxlink.
-
 
 Port and protocols needed for an EchoLink node:
 
@@ -14,6 +13,12 @@ Port and protocols needed for an EchoLink node:
 
 - Original Project Site
 -- https://www.svxlink.org/
+
+- Installation on a Raspberry Pi and link thru a Baofeng
+-- https://www.vnutz.com/articles/echolink_on_a_raspberry_pi_with_a_baofeng_uv5r
+
+- Echolink node on Raspberry Pi using SVXLink
+-- http://np2wj.com/echolink-node-on-raspberry-pi-using-svxlink-part-1/
 
 ---
 TODO:
