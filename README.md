@@ -2,6 +2,11 @@
 
 These are the scripts I've created to assist with instaling and configuring svxlink.
 
+Install OS, Raspberry Pi OS Lite is recommended if you feel you need to conserve resources.
+
+Install Git via apt install git or app store
+
+
 Port and protocols needed for an EchoLink node:
 
 - EchoLink requires that inbound UDP ports 5198 and 5199 to your node are passed through. 
@@ -9,7 +14,7 @@ Port and protocols needed for an EchoLink node:
 - Also, TCP port 22 for Secure Shell to the node will allow you to log into the device remotely to manage it.
 
 ---
-## Sites I used to get my information from
+## Sites I used to get my information from for this build
 
 - Original Project Site
 -- https://www.svxlink.org/
@@ -19,6 +24,15 @@ Port and protocols needed for an EchoLink node:
 
 - Echolink node on Raspberry Pi using SVXLink
 -- http://np2wj.com/echolink-node-on-raspberry-pi-using-svxlink-part-1/
+
+- Installing SVXLink On Raspberry Pi OS Bullseye
+-- https://ccc.myrac.ca/VE6PLC_installing_svxlink.pdf
+
+- Wiring diagram to DIY a Baofeng to sound card harness
+-- https://schematron.org/image/baofeng-headset-wiring-diagram-3.png
+
+- EchoLink site
+-- https://echolink.org/
 
 ---
 TODO:
