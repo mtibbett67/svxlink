@@ -2,13 +2,13 @@
 
 These are the scripts I've created to assist with instaling and configuring svxlink.
 
-Hardware list:
-- Raspberry Pi. Version 3 or newer
+### Hardware list:
+- Raspberry Pi. Version 3 or newer (https://www.raspberrypi.com/)
 - USB Sound Card (https://www.amazon.com/gp/product/B00IRVQ0F8)
 - Baofeng Audio Patch Cable (https://www.amazon.com/gp/product/B01LMIBAZW)
 - Y-cord to connect a single 3.5mm to USB Sound Card Mic and Audio out (https://www.amazon.com/dp/B073ZDDTH2)
 
-
+### Installation:
 Install OS, Raspberry Pi OS Lite is recommended if you feel you need to conserve resources.
 
 Install Git via apt install git or app store
@@ -44,7 +44,7 @@ Port and protocols needed for an EchoLink node:
 ---
 TODO:
 
-- Hardware list
+- (Done) Hardware list
 
 - Installation instructions
 
@@ -52,4 +52,4 @@ TODO:
 
 - Look into All Star link version 3
 
-- Site refernces to sites I use
+- (Done) Site refernces to sites I use
