@@ -12,11 +12,21 @@ These are the scripts I've created to assist with instaling and configuring svxl
 ### Installation Instructions:
 Install OS, Raspberry Pi OS Lite is recommended if you feel you need to conserve resources.
 
-Install Git via apt install git or app store
+Change to your home directory:
 
-Git Clone this repository
+`cd ~`
+
+Install Git via apt install git or app store:
+
+`sudo apt install git`
+
+Git Clone this repository:
 
 `git clone https://github.com/mtibbett67/svxlink.git`
+
+Move into th svxlink folder:
+
+`cd svxlink`
 
 Set the shell scripts to executable:
 
