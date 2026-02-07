@@ -36,15 +36,15 @@ Run the install.sh script as sudo.  This will install any depencies, make, and i
 
 You will be prompted to run the configure.sh script next.  It will ask you for:
 
-Callsign (Your callsign or your clubs callsign)
+- Callsign (Your callsign or your clubs callsign)
 
-EchoLink password (Your current EchoLink password)
+- EchoLink password (Your current EchoLink password)
 
-Sysop name (The callsign of the person responsible for the node)
+- Sysop name (The callsign of the person responsible for the node)
 
-Location (Usually your city and state)
+- Location (Usually your city and state)
 
-Description (What ever you want to describe your node as)
+- Description (What ever you want to describe your node as)
 
 
 Port and protocols needed for an EchoLink node:
