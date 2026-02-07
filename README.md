@@ -46,11 +46,13 @@ You will be prompted to run the configure.sh script next.  It will ask you for:
 
 - Description (What ever you want to describe your node as)
 
+### Router / Network information:
 
-Port and protocols needed for an EchoLink node:
 In order to allow SvxLink to connect to the EchoLink servers you will need to open some ports
 and let them thru to your SvxLink node. Also assign a static IP address or DHCP reservation for
 your node.
+
+Port and protocols needed for an EchoLink node:
 
 - EchoLink requires inbound UDP ports 5198 and 5199 forwarded to your node are passed through` 
 
