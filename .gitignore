@@ -1,7 +1,8 @@
-# Private files
+# sudo Private files
 kj5itl_configure.sh
 credentials.txt
 
 # Other files
 menu.sh.txt
 svxlink.conf
+*.bak

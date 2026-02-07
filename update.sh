@@ -2,10 +2,15 @@
 
 # Upgrade to the latest pre-release
 
+if [[ "$EUID" -ne 0 ]]; then
+  echo "This script must be run as root."
+  exit 1
+fi
+
 # Update OS and install packages needed for SvxLink
-sudo apt update
-sudo apt upgrade
-sudo apt install g++ cmake make libsigc++-2.0-dev libgsm1-dev libpopt-dev tcl-dev \
+apt update
+apt upgrade
+apt install g++ cmake make libsigc++-2.0-dev libgsm1-dev libpopt-dev tcl-dev \
      libgcrypt20-dev libspeex-dev libasound2-dev libopus-dev librtlsdr-dev doxygen\
      groff alsa-utils vorbis-tools curl libcurl4-openssl-dev git rtl-sdr libcurl4-openssl-dev\
      cmake libjsoncpp-dev libgpiod-dev libssl-dev ladspa-sdk
@@ -40,7 +45,7 @@ select FILENAME in *.deb quit; do
         echo "Exiting."
         break
     elif [ -n "$FILENAME" ]; then
-        sudo dpkg -i "$FILENAME"
+        dpkg -i "$FILENAME"
         echo "Please run configure.sh"
         break
     else
