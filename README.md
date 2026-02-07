@@ -34,6 +34,8 @@ Set the shell scripts to executable:
 
 Run the install.sh script as sudo.  This will install any depencies, make, and install the SvxLink pakage.
 
+`sudo ./install.sh`
+
 You will be prompted to run the configure.sh script next.  It will ask you for:
 
 - Callsign (Your callsign or your clubs callsign)
