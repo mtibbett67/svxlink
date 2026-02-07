@@ -41,7 +41,7 @@ select FILENAME in *.deb quit; do
         break
     elif [ -n "$FILENAME" ]; then
         sudo dpkg -i "$FILENAME"
-        echo "Please run 2_configure.sh"
+        echo "Please run configure.sh"
         break
     else
         echo "Invalid selection. Please enter a number from the list above."
