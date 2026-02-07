@@ -32,11 +32,20 @@ Set the shell scripts to executable:
 
 `sudo chmod +x *.sh`
 
-Run the install.sh script as sudo. This will install any depencies, make, and install the SvxLink pakage.
+Run the install.sh script as sudo.  This will install any depencies, make, and install the SvxLink pakage.
 
-You will be prompted to run the configure.sh script next.  It will ask you for your Call Sign,
-EchoLink password, Sysop name, Location, and Description 
- 
+You will be prompted to run the configure.sh script next.  It will ask you for:
+
+Callsign (Your callsign or your clubs callsign)
+
+EchoLink password (Your current EchoLink password)
+
+Sysop name (The callsign of the person responsible for the node)
+
+Location (Usually your city and state)
+
+Description (What ever you want to describe your node as)
+
 
 Port and protocols needed for an EchoLink node:
 In order to allow SvxLink to connect to the EchoLink servers you will need to open some ports
