@@ -1,6 +1,6 @@
 # SvxLink
 
-These are the scripts I've created to assist with instaling and configuring svxlink.
+These are the scripts I've created to assist with installing and configuring svxlink.
 
 ---
 ### Hardware list:
@@ -24,7 +24,7 @@ Git Clone this repository:
 
 `git clone https://github.com/mtibbett67/svxlink.git`
 
-Move into th svxlink folder:
+Move into the svxlink folder:
 
 `cd svxlink`
 
@@ -32,7 +32,7 @@ Set the shell scripts to executable:
 
 `sudo chmod +x *.sh`
 
-Run the install.sh script as sudo.  This will install any depencies, make, and install the SvxLink pakage.
+Run the install.sh script as sudo.  This will install any dependencies, make, and install the SvxLink package.
 
 `sudo ./install.sh`
 
@@ -42,11 +42,11 @@ Once the installation has completed you will be prompted to run the configure.sh
 
 It will ask you for:
 
-- Callsign (Your callsign or your clubs callsign)
+- Call sign (Your call sign or your clubs call sign)
 
 - EchoLink password (Your current EchoLink password)
 
-- Sysop name (The callsign of the person responsible for the node)
+- Sysop name (The call sign of the person responsible for the node)
 
 - Location (Usually your city and state)
 
