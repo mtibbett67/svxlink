@@ -70,7 +70,7 @@ Secure Shell to the node.
 ---
 ## Sites I used to get my information from for this build
 
-- Original Project Site [here](https://www.svxlink.org/)
+- SvxLink original Project Site [here](https://www.svxlink.org/)
 
 - Installation on a Raspberry Pi and link thru a Baofeng [here](https://www.vnutz.com/articles/echolink_on_a_raspberry_pi_with_a_baofeng_uv5rP)
 
