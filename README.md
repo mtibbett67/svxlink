@@ -38,7 +38,7 @@ Run the install.sh script as sudo.  This will install any depencies, make, and i
 
 Once the installation has completed you will be prompted to run the configure.sh script next.
 
-`./configure.sh`
+`sudo ./configure.sh`
 
 It will ask you for:
 
