@@ -54,7 +54,7 @@ your node.
 
 Port and protocols needed for an EchoLink node:
 
-- EchoLink requires inbound UDP ports 5198 and 5199 forwarded to your node are passed through` 
+- EchoLink requires inbound UDP ports 5198 and 5199 forwarded to your node are passed through
 
 - Also, if you need to remotely manage your node you will want to forward TCP port 22 for
 Secure Shell to the node.
