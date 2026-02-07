@@ -16,7 +16,7 @@ Install Git via apt install git or app store
 
 Git Clone this repository
 
-'git clone https://github.com/mtibbett67/svxlink.git'
+`git clone https://github.com/mtibbett67/svxlink.git`
 
 Set the shell scripts to executable:
 
@@ -33,7 +33,7 @@ In order to allow SvxLink to connect to the EchoLink servers you will need to op
 and let them thru to your SvxLink node. Also assign a static IP address or DHCP reservation for
 your node.
 
-- EchoLink requires inbound UDP ports 5198 and 5199 forwarded to your node are passed through. 
+- EchoLink requires inbound UDP ports 5198 and 5199 forwarded to your node are passed through` 
 
 - Also, if you need to remotely manage your node you will want to forward TCP port 22 for
 Secure Shell to the node.
