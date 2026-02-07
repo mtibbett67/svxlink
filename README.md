@@ -16,6 +16,10 @@ Install Git via apt install git or app store
 
 Git Clone this repository
 
+Set the shell scripts to executable
+
+`sudo chmod +x *.sh`
+
 Run the install.sh script. This will install any depencies, make, and install the SvxLink pakage.
 
 You will be prompted to run the configure.sh script next.  It will ask you for your Call Sign,
