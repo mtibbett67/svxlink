@@ -97,4 +97,4 @@ TODO:
 
 - Look into All Star link version 3
 
-- (Done) Site refernces to sites I use
+- ~~Site refernces to sites I use~~
