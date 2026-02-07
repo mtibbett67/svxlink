@@ -52,6 +52,8 @@ It will ask you for:
 
 - Description (What ever you want to describe your node as)
 
+Once the configuration scrip has run it will state "Configuration complete"
+
 ### Router / Network information:
 
 In order to allow SvxLink to connect to the EchoLink servers you will need to open some ports
