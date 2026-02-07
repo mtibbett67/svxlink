@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e  # Stop script on any error
+set -e # Stop script on any error
 
 # --- Variables ---
 # Prompt for credentials instead of hardcoding
@@ -15,7 +15,7 @@ echo
 #password=MyPassword
 #sysop_name=Elmer
 #location="Albuquerque, NM"
-#description="Testing EchoLink Node"
+#ndescription="Testing EchoLink Node"
 
 # --- 1. Event and Sound System Directories ---
 # Replicating the logic to create local-events.d and local-sounds.d
@@ -44,7 +44,7 @@ sudo sed -i "/^CALLSIGN/c\CALLSIGN=$callsign" "$SVX_CONF"
 # Dynamic Audio Device Detection
 USB_DEV=$(grep 'USB\-Audio' /proc/asound/cards | awk '{print $1}' | head -n 1)
 if [ -n "$USB_DEV" ]; then
-    sudo sed -i "/^AUDIO_DEV/c\AUDIO_DEV=alsa:plughw:$USB_DEV" "$SVX_CONF"
+  sudo sed -i "/^AUDIO_DEV/c\AUDIO_DEV=alsa:plughw:$USB_DEV" "$SVX_CONF"
 fi
 
 # --- 3. EchoLink Module Configuration (/etc/svxlink/svxlink.d/ModuleEchoLink.conf) ---
