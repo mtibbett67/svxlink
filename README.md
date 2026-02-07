@@ -54,6 +54,10 @@ It will ask you for:
 
 Once the configuration script has run it will state "Configuration complete"
 
+Now restart SvxLink and check its status:
+
+`sudo systemctl restart svxlink && systemctl status svxlink | grep "Active: active (running)"`
+
 ### Router / Network information:
 
 In order to allow SvxLink to connect to the EchoLink servers you will need to open some ports
