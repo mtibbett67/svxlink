@@ -89,7 +89,7 @@ Secure Shell to the node.
 ---
 TODO:
 
-- ~~Hardware list
+- ~~Hardware list~~
 
 - Installation instructions
 
