@@ -16,7 +16,9 @@ Install Git via apt install git or app store
 
 Git Clone this repository
 
-Set the shell scripts to executable
+'git clone https://github.com/mtibbett67/svxlink.git'
+
+Set the shell scripts to executable:
 
 `sudo chmod +x *.sh`
 
