@@ -36,7 +36,7 @@ Run the install.sh script as sudo.  This will install any depencies, make, and i
 
 `sudo ./install.sh`
 
-You will be prompted to run the configure.sh script next.
+Once the installation has completed you will be prompted to run the configure.sh script next.
 
 `./configure.sh`
 
@@ -52,7 +52,7 @@ It will ask you for:
 
 - Description (What ever you want to describe your node as)
 
-Once the configuration scrip has run it will state "Configuration complete"
+Once the configuration script has run it will state "Configuration complete"
 
 ### Router / Network information:
 
