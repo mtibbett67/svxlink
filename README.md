@@ -36,7 +36,11 @@ Run the install.sh script as sudo.  This will install any depencies, make, and i
 
 `sudo ./install.sh`
 
-You will be prompted to run the configure.sh script next.  It will ask you for:
+You will be prompted to run the configure.sh script next.
+
+`./configure.sh`
+
+It will ask you for:
 
 - Callsign (Your callsign or your clubs callsign)
 
