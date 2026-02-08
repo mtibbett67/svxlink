@@ -4,7 +4,7 @@ set -e # Stop script on any error
 # --- Variables ---
 # Prompt for credentials instead of hardcoding
 read -p "Enter Callsign: " callsign
-read -sp "Enter EchoLink Password: " password
+read -p "Enter EchoLink Password: " password
 read -p "Enter Sysop Name: " sysop_name
 read -p "Enter Location: " location
 read -p "Enter Description: " description
