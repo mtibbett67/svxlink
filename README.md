@@ -14,31 +14,45 @@ Install OS, Raspberry Pi OS Lite is recommended if you feel you need to conserve
 
 Change to your home directory:
 
-`cd ~`
+```
+cd ~
+```
 
 Install Git via apt install git or app store:
 
-`sudo apt install git`
+```
+sudo apt install git
+```
 
 Git Clone this repository:
 
-`git clone https://github.com/mtibbett67/svxlink.git`
+```
+git clone https://github.com/mtibbett67/svxlink.git
+```
 
 Move into the svxlink folder:
 
-`cd svxlink`
+```
+cd svxlink
+```
 
 Set the shell scripts to executable:
 
-`sudo chmod +x *.sh`
+```
+sudo chmod +x *.sh
+```
 
 Run the install.sh script as sudo.  This will install any dependencies, make, and install the SvxLink package.
 
-`sudo ./install.sh`
+```
+sudo ./install.sh
+```
 
 Once the installation has completed you will be prompted to run the configure.sh script next.
 
-`sudo ./configure.sh`
+```
+sudo ./configure.sh
+```
 
 It will ask you for:
 
@@ -46,7 +60,7 @@ It will ask you for:
 
 - EchoLink password (Your current EchoLink password)
 
-- Sysop name (The call sign of the person responsible for the node)
+- Sysop name (The callsign of the person responsible for the node)
 
 - Location (Usually your city and state)
 
@@ -56,7 +70,9 @@ Once the configuration script has run it will state "Configuration complete"
 
 Now restart SvxLink and check its status:
 
-`sudo systemctl restart svxlink && systemctl status svxlink | grep "Active: active (running)"`
+```
+sudo systemctl restart svxlink && systemctl status svxlink | grep "Active: active (running)"
+```
 
 ### Router / Network information:
 
