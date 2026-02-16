@@ -92,7 +92,7 @@ Secure Shell to the node.
 
 - SvxLink Original Project Site [here](https://www.svxlink.org/)
 
-- Installation on a Raspberry Pi and link thru a Baofeng [here](https://www.vnutz.com/articles/echolink_on_a_raspberry_pi_with_a_baofeng_uv5rP)
+- Installation on a Raspberry Pi and link thru a Baofeng [here](https://www.vnutz.com/articles/echolink_on_a_raspberry_pi_with_a_baofeng_uv5r)
 
 - Echolink node on Raspberry Pi using SVXLink [here](http://np2wj.com/echolink-node-on-raspberry-pi-using-svxlink-part-1/)
 
