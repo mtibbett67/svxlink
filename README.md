@@ -79,8 +79,8 @@ If the previous command fails run the following to enable and start the service.
 sudo systemctl enable svxlink
 sudo systemctl start svxlink
 systemctl status svxlink | grep "Active: active (running)"
-
 ```
+
 ### Router / Network information:
 
 In order to allow SvxLink to connect to the EchoLink servers you will need to open some ports
