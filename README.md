@@ -74,7 +74,7 @@ Now restart SvxLink and check its status:
 sudo systemctl restart svxlink && systemctl status svxlink | grep "Active: active (running)"
 ```
 
-If the previous command fails run the following to enable and start the service.  Then 
+If the previous command fails run the following to enable and start the service.
 ```
 sudo systemctl enable svxlink
 sudo systemctl start svxlink
